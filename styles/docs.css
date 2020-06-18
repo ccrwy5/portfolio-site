@@ -12,13 +12,9 @@ a {
 }
 
 .gradPhoto {
-    /* border: 1px solid #ddd;
-    border-radius: 4px; */
     padding: 25px;
     margin: 0px, 0px, 0px, 0px;
-    /* width: 150px; */
     max-width: 65%;
-    /* min-width: 60%;  */
     height: auto;
 }
 
@@ -26,7 +22,7 @@ a {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-  .intro {
+.intro {
       background-color: #FAFAFA;
       padding: 25px 10px;  
 }
@@ -69,11 +65,21 @@ a {
     /* width: 45%; */
 }
 
-.nav-link {
+html {
+    scroll-behavior: smooth;
+  }
+
+  .nav-link {
     font-size: 16px;
 }
 
+span {
+    display: inline-block   
+}
 
-
-
+.profile-image {
+    max-width: 160px;
+    margin: 0 auto;
+    border-radius: 15%;
+}
 
