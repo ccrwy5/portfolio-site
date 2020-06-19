@@ -11,39 +11,46 @@ a {
     text-align: center;
 }
 
-.gradPhoto {
-    padding: 25px;
-    margin: 0px, 0px, 0px, 0px;
-    max-width: 65%;
-    height: auto;
-}
-
-.gradPhoto:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
 .intro {
-      background-color: #FAFAFA;
-      padding: 25px 10px;  
+      /* background-color: #FAFAFA; */
+      padding: 25px 10px;
+  
+      
+
+}
+
+.background-img {
+    background-image: url('../images/stock12.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 
 .intro-title {
     font-weight: bold;
     padding: 0px 10px;
-    font-size: 46px;
+    font-size: 6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
 
 }
 
 .intro-subtitle {
-    color: gray;
+    color: white;
     padding: 0px 10px;
-    font-size: 28px;
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
 }
 
 .intro-description {
     font-size: 18px;
     padding: 0px 10px;
+    font-size: 1vw;
+    color: white;
 }
 
 .intro-buttons {
@@ -73,6 +80,10 @@ html {
     font-size: 16px;
 }
 
+.navbar-brand .nav-link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 span {
     display: inline-block   
 }
@@ -81,5 +92,14 @@ span {
     max-width: 160px;
     margin: 0 auto;
     border-radius: 15%;
+}
+
+.icon-row {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.social-icon {
+    padding: 10px;
 }
 
