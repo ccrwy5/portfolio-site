@@ -1,5 +1,6 @@
 body {
     min-height: 200vh;
+    background-color:#FAFAFA;
   }
   
 a {    
@@ -20,12 +21,13 @@ a {
 }
 
 .background-img {
-    background-image: url('../images/stock2.jpg');
+    background-image: url('../images/header-dark.jpeg');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    
 }
 
 .intro-title {
@@ -34,7 +36,21 @@ a {
     font-size: 6vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 
+
+    
 }
 
 .intro-subtitle {
@@ -43,8 +59,22 @@ a {
     font-size: 3vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+         
 }
+
+     
 
 .intro-description {
     font-size: 18px;
@@ -65,7 +95,8 @@ a {
     margin: 10px;
     text-align: center;
     color: white;
-    /* width: 45%; */
+
+    width: 50%;
 }
 
 .intro-resume-btn {
@@ -122,7 +153,9 @@ hr {
 }
 
 .custom-green {
-    background-color: #54B689;
+    /* background-color: #54B689; */
+    /* background-color: #222; */
+    background-color: #2d2d2d;
 }
 
 @media all and (max-width:600px) {
@@ -148,11 +181,30 @@ hr {
     margin: 0 auto;
 }
 
+
+/*----------- Portfolio Section -----------*/
+
 .card-img-top {
     width: 100%;
     height: 15vw;
     object-fit: cover;
 }
 
+.card:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
 
+.portfolio-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 
