@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Photo of the Day</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Bootstrap -->
+
+
+
+    <script>
+        $( function() {
+          $( "#searchTerm" ).datepicker();
+        } );
+    </script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+    </style>
+
+
+</style>  
+
+</head>
+<body onload="setToday()">
+    
+    <div class="container header-div">
+        <img src="images/earth.jpg" alt="Snow" class="header-image">
+        <div class="centered">
+            <h1 class="header-text">NASA Photo of the Day</h1>
+
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <input id="searchTerm" type="text" placeholder="Enter new date..." class="form-control form-control-lg" />
+        <br>
+        <button id="searchButton" class="search-btn">Search</button>
+      </div>
+      
+      <div>
+        <h1 id="image-title"></h1>
+        <h3 id="subtitle"></h3>
+        <div id="image"></div>
+        <h3 id="details-title">Details</h3>
+        <p id="details"></p>
+      </div>
+
+
+      
+    
+</body>
+</html>
