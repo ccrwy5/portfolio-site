@@ -208,3 +208,121 @@ hr {
 
 }
 
+.card-deck {
+    margin-bottom: 50px;
+}
+
+
+/*----- Skills Section ----- */
+
+
+
+
+
+.skills-header {
+    color: #2d2d2d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#skills-section {
+    background-color: white;
+    padding-top: 50px;
+}
+
+.tech-img{
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px 70px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.development-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.tools-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+#double {
+    list-style: none;
+    text-align: left;
+}
+
+#picture {
+    max-width:300px;
+    margin-left: 30px;
+}
+.tech-icon {
+    max-width:80px;
+    display:inline-block;
+    width:20%;
+    height: auto;
+    object-fit: contain;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    margin: 5px;
+    
+}
+
+.tech-icon:hover {
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+}
+
+
+.tech-icon-2 {
+    max-width:180px;
+    display:inline-block;
+    width:50%;
+    height: 180px;
+    height: auto;
+    object-fit: contain;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+ 
+}
+
+.tech-icon-2:hover {
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+}
+
+
+
+
+  
+  
+  
+    
+  
+
+
