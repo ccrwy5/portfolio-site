@@ -1,289 +1,322 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Chris Rehagen | Software Engineer</title>
-    <link rel="stylesheet"
-          id="theme_link"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/materia/bootstrap.min.css"/>
-    <link rel="stylesheet" href="styles/navbar-fixed-left.min.css">
-    <link rel="stylesheet" href="styles/cards.css">
 
-    <!-- <script
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Chris Rehagen | Software Engineer</title>
+  <link rel="stylesheet" id="theme_link"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/materia/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles/navbar-fixed-left.min.css">
+  <link rel="stylesheet" href="styles/cards.css">
+
+  <!-- <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
             crossorigin="anonymous"></script> -->
 
-    <link rel="stylesheet" href="styles/docs.css">
-    <script src="https://kit.fontawesome.com/7f3e6aa3a6.js" crossorigin="anonymous"></script>
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/docs.css">
+  <script src="https://kit.fontawesome.com/7f3e6aa3a6.js" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
 
-    <script src="js/app.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+
+  <script src="js/app.js"></script>
 
 
 </head>
 
 <body>
-    <div>
-        
-      <!-- Left Nav -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-left" style="background-color: #2d2d2d;">
-            <a class="navbar-brand" style="font-weight: bold; margin: 0 auto;" href>Chris Rehagen</a>
-            <img src="images/headshot.png" alt="headshot" class="headshot-pic">
+  <div>
 
-            
-            <!-- Nav Social Icons -->
-            <div class="icon-row">
-              <a href="https://www.linkedin.com/in/christopher-rehagen-943412156/" target="_blank"><i class="fa fa-linkedin-square fa-2x social-icon" aria-hidden="true"></i></a>
-              <a href="https://github.com/ccrwy5" target="_blank"><i class="fa fa-github fa-2x social-icon" aria-hidden="true"></i></a>
-              <a href = "mailto: chrisrehagen12@gmail.com"><i class="fa fa-envelope-o fa-2x social-icon" aria-hidden="true"></i></a>
-            </div> 
+    <!-- Left Nav -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-left" style="background-color: #2d2d2d;">
+      <a class="navbar-brand" style="font-weight: bold; margin: 0 auto;" href>Chris Rehagen</a>
+      <img src="images/headshot.png" alt="headshot" class="headshot-pic">
 
-            <!-- Collapse Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <hr>   
+      <!-- Nav Social Icons -->
+      <div class="icon-row">
+        <a href="https://www.linkedin.com/in/christopher-rehagen-943412156/" target="_blank"><i
+            class="fa fa-linkedin-square fa-2x social-icon" aria-hidden="true"></i></a>
+        <a href="https://github.com/ccrwy5" target="_blank"><i class="fa fa-github fa-2x social-icon"
+            aria-hidden="true"></i></a>
+        <a href="mailto: chrisrehagen12@gmail.com"><i class="fa fa-envelope-o fa-2x social-icon"
+            aria-hidden="true"></i></a>
+      </div>
 
-            <!-- Navigation Links/Icons -->
-            <div class="collapse navbar-collapse col-10 offset-1" id="navbarsExampleDefault">
-                <ul class="navbar-nav text-center">
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link"><i class="far fa-user-circle fa-fw mr-2" style="margin: 0 auto; text-align: center;"></i> About</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link" href="#portfolio"><i class="fas fa-laptop-code fa-fw mr-2"></i> My Work</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link"><i class="far fa-address-book fa-fw mr-2"></i> Contact</a>
-                    </li>
-                </ul>
+      <!-- Collapse Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <hr>
+
+      <!-- Navigation Links/Icons -->
+      <div class="collapse navbar-collapse col-10 offset-1" id="navbarsExampleDefault">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link"><i class="far fa-user-circle fa-fw mr-2"
+                style="margin: 0 auto; text-align: center;"></i> About</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link" href="#portfolio"><i class="fas fa-laptop-code fa-fw mr-2"></i> My Work</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link"><i class="far fa-address-book fa-fw mr-2"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <!------------ Welcome Pane -------------->
+
+  <div class="container intro background-img">
+    <div class="row">
+      <!-- <div class="col-sm-6 col-md-8"> -->
+      <div class="col-sm-12">
+        <h1 class="intro-title">Chris Rehagen</h1>
+        <!-- <h3 class="intro-subtitle">Software Engineer</h2> -->
+
+        <h3 class="intro-subtitle">
+          <span class="txt-rotate" data-period="2000"
+            data-rotate='[ "Software Engineer", "Web Developer", "Mobile Developer" ]'></span>
+        </h3>
+        <div class="intro-buttons">
+          <!-- <button type="button" class="btn intro-portfolio-btn custom-green"><i class="fas fa-laptop-code"></i> Portfolio</button> -->
+          <!-- <a href="resume.html"><button type="button" class="btn intro-resume-btn custom-green"><i class="fas fa-file-download"></i> Resume</button></a> -->
+          <button type="button" class="btn intro-portfolio-btn custom-green" data-toggle="modal"
+            data-target="#exampleModalCenter"><i class="fas fa-file-download"></i>
+            Resume
+          </button>
+        </div>
+
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Resume Download</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h5>Would you like to download my resume?</h5>
+                <a href="Resume-June2020.pdf" download style="width: 100%;"><button type="button"
+                    class="btn intro-portfolio-btn custom-green"
+                    style="width: 100%; margin: 0 auto;">Download</button></a>
+              </div>
             </div>
-        </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!------------ Portfolio Pane -------------->
+
+  <h1 id="portfolio" class="portfolio-title">Portfolio</h1>
+
+  <!-- Projects Row 1 -->
+  <div class="card-deck hover-sel">
+
+    <!------------------- Text-Trade iOS ------------------->
+    <div class="card">
+      <img src="images/project-images/text-trade-cropped.png" class="card-img-top project-image" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Text-Trade</h5>
+        <p class="card-text">Text-Trade is an iOS based mobile application that allows college students to buy and sell
+          textbooks directly to each other. It helps students by getting them the textbooks they need for the fairest
+          price possible. This will help not only the buyers of used textbooks, but also those that are looking to sell
+          the ones they no longer need.</p>
+      </div>
+      <div class="card-footer">
+        <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+        <!-- <button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button> -->
+        <a href="https://github.com/ccrwy5/Text-Trade-Application" target="_blank"><button type="button"
+            class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
+      </div>
     </div>
 
-
-<!------------ Welcome Pane -------------->
-
-    <div class="container intro background-img">
-        <div class="row">
-            <!-- <div class="col-sm-6 col-md-8"> -->
-              <div class="col-sm-12">
-                <h1 class="intro-title">Chris Rehagen</h1>
-                <!-- <h3 class="intro-subtitle">Software Engineer</h2> -->
-                  
-                  <h3 class="intro-subtitle">
-                    <span
-                       class="txt-rotate"
-                       data-period="2000"
-                       data-rotate='[ "Software Engineer", "Web Developer", "Mobile Developer" ]'></span>
-                  </h3>
-
-
-                <!-- <p class="intro-description">I'm a software engineer with a passion for quality programming with special interests
-                    in web and mobile app development. 
-                    <br><br>
-                    Take a peek at my resume and portfolio to see what I've been up to!</p> -->
-                <div class="intro-buttons">
-                    <!-- <button type="button" class="btn intro-portfolio-btn custom-green"><i class="fas fa-laptop-code"></i> Portfolio</button> -->
-                    <!-- <a href="resume.html"><button type="button" class="btn intro-resume-btn custom-green"><i class="fas fa-file-download"></i> Resume</button></a> -->
-                    <button type="button" class="btn intro-portfolio-btn custom-green" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-file-download"></i>
-                      Resume
-                    </button>
-                  </div>
-                
-
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Resume Download</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <h5>Would you like to download my resume?</h5> 
-                        <a href="Resume-June2020.pdf" download style="width: 100%;"><button type="button" class="btn intro-portfolio-btn custom-green" style="width: 100%; margin: 0 auto;">Download</button></a>
-                      </div>
-                      <!-- <div class="modal-footer">
-                      </div> -->
-                    </div>
-                  </div>
-                </div>
-
-            </div>
-        </div>
+    <!------------------- COVID Track ------------------->
+    <div class="card">
+      <img src="images/project-images/covid-track-snapshot.png" class="card-img-top project-image" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Covid-Track</h5>
+        <p class="card-text">Simple application using React and Chart.js to pull and display information on the amount
+          of cases, recoveries and deaths from COVID-19.<br><br>Live link coming soon!</p>
+      </div>
+      <div class="card-footer">
+        <!-- <a href="projects/build/index.html" target="_blank"><button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button></a> -->
+        <a href="https://github.com/ccrwy5/COVID-Track" target="_blank"><button type="button"
+            class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
+      </div>
     </div>
 
-<!------------ Portfolio Pane -------------->
+    <!------------------- Movie DB ------------------->
+    <div class="card">
+      <img src="images/project-images/MovieDB-screenshot.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">The Movie-DB</h5>
+        <p class="card-text">Movie searching application that pulls pertinent movie information based on a user's search
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="projects/movie-DB/index.html" target="_blank"><button type="button"
+            class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button></a>
+        <a href="https://github.com/ccrwy5/MovieDB" target="_blank"><button type="button"
+            class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
+      </div>
+    </div>
+  </div>
 
-    <h1 id="portfolio" class="portfolio-title">Portfolio</h1>
+  <!-- Project Row 2 -->
+  <div class="card-deck">
 
-    <!-- Projects Row 1 -->
-    <div class="card-deck hover-sel">
-        
-        <!------------------- Text-Trade iOS ------------------->
-        <div class="card">
-          <img src="images/project-images/text-trade-cropped.png" class="card-img-top project-image" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Text-Trade</h5>
-            <p class="card-text">Text-Trade is an iOS based mobile application that allows college students to buy and sell textbooks directly to each other. It helps students by getting them the textbooks they need for the fairest price possible. This will help not only the buyers of used textbooks, but also those that are looking to sell the ones they no longer need.</p>
-          </div>
-          <div class="card-footer">
-            <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-            <!-- <button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button> -->
-            <a href="https://github.com/ccrwy5/Text-Trade-Application" target="_blank"><button type="button" class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
-          </div>
-        </div>
+    <!------------------- NASA POTD ------------------->
+    <div class="card">
+      <img src="images/project-images/POTD-screenshot.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">NASA Photo of the Day</h5>
+        <p class="card-text">Image gallary application that displays NASA's "Photo of the Day" for a given day specified
+          by the user. </p>
+      </div>
+      <div class="card-footer">
+        <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+        <a href="projects/nasa-potd/index.html" target="_blank"><button class="btn btn-dark live-link-button"><i
+              class="fas fa-external-link-alt"></i> Live Link</button></a>
+        <a href="https://github.com/ccrwy5/nasa-api" target="_blank"><button type="button"
+            class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/project-images/topset-login-cropped.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Top Set</h5>
+        <p class="card-text">Top-Set a is social iOS application centered around fitness. In the app, you can view
+          workouts posted by other users for you to try yourself, as well as share your own routines.
+          It also serves as a companion to help you reach your goals, as it has a 1-Rep-Max calculator and a goals table
+          for you to keep on track of your goals.
+        </p>
+      </div>
+      <div class="card-footer">
+        <!-- <button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button> -->
+        <a href="https://github.com/ccrwy5/Top-Set" target="_target"><button type="button"
+            class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/Image-Coming-Soon.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Coming soon</h5>
+        <p class="card-text">Under construction</p>
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live
+          Link</button>
+        <button type="button" class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button> </div>
+    </div>
+  </div>
 
-        <!------------------- COVID Track ------------------->
-        <div class="card">
-          <img src="images/project-images/covid-track-snapshot.png" class="card-img-top project-image" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Covid-Track</h5>
-            <p class="card-text">Simple application using React and Chart.js to pull and display information on the amount of cases, recoveries and deaths from COVID-19.<br><br>Live link coming soon!</p>
-          </div>
-          <div class="card-footer">
-            <!-- <a href="projects/build/index.html" target="_blank"><button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button></a> -->
-            <a href="https://github.com/ccrwy5/COVID-Track" target="_blank"><button type="button" class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
-          </div>
-        </div>
-        
-        <!------------------- Movie DB ------------------->
-        <div class="card">
-          <img src="images/project-images/MovieDB-screenshot.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">The Movie-DB</h5>
-            <p class="card-text">Movie searching application that pulls pertinent movie information based on a user's search</p>
-          </div>
-          <div class="card-footer">
-            <a href="projects/movie-DB/index.html" target="_blank"><button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button></a>
-            <a href="https://github.com/ccrwy5/MovieDB" target="_blank"><button type="button" class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>       
-          </div>
+  <!-- Skills Section -->
+  
+  <div id="skills-section">
+    <h1 class="skills-header">Skills and Proficiencies</h1>
+    <div class="row" id="skills-section">
+
+      <!-- Left Side-->
+      <div class="column">
+        <h3 class="development-title"><i class="fa fa-code fa-1x" aria-hidden="true"></i> Development</h3>
+
+        <div id="picture">
+          <img src="images/logos/html-logo-2.png" class="tech-icon">
+          <img src="images/logos/css-logo-2.png" class="tech-icon">
+          <img src="images/logos/javascript-logo.png" class="tech-icon">
+          <img src="images/logos/react-logo.webp" class="tech-icon">
+          <img src="images/logos/java-logo.png" class="tech-icon">
+          <img src="images/logos/swift-logo.png" class="tech-icon">
+          <img src="images/logos/c-sharp-logo.png" class="tech-icon">
+          <img src="images/logos/jquery-logo.png" class="tech-icon">
+          <img src="images/logos/bootstrap-logo.png" class="tech-icon">
+          <img src="images/logos/mysql-logo.svg" alt="Snow" class="tech-icon">
+          <img src="images/logos/mongo-logo.png" alt="Forest" class="tech-icon">
+          <img src="images/logos/firestore-logo.png" alt="Mountains" class="tech-icon">
+
         </div>
       </div>
 
-      <!-- Project Row 2 -->
-      <div class="card-deck">
+      <!-- Right Side-->
+      <div class="column">
+        <h3 class="tools-title"><i class="fa fa-cogs" aria-hidden="true"></i> Tools</h3>
+        <ul class="tools-list">
+          <li><i class="fa fa-check" aria-hidden="true"></i> Xcode</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> VS Code</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> Intellij</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> Jenkins</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> Git (Github & BitBucket)</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> Jira</li>
+          <li><i class="fa fa-check" aria-hidden="true"></i> Jenkins</li>
+        </ul>
 
-        <!------------------- NASA POTD ------------------->
-        <div class="card">
-          <img src="images/project-images/POTD-screenshot.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">NASA Photo of the Day</h5>
-            <p class="card-text">Image gallary application that displays NASA's "Photo of the Day" for a given day specified by the user. </p>
-          </div>
-          <div class="card-footer">
-            <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-            <a href="projects/nasa-potd/index.html" target="_blank"><button class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button></a>
-            <a href="https://github.com/ccrwy5/nasa-api" target="_blank"><button type="button" class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/project-images/topset-login-cropped.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Top Set</h5>
-            <p class="card-text">Top-Set a is social iOS application centered around fitness. In the app, you can view workouts posted by other users for you to try yourself, as well as share your own routines. 
-              It also serves as a companion to help you reach your goals, as it has a 1-Rep-Max calculator and a goals table for you to keep on track of your goals.
-            </p>
-          </div>
-          <div class="card-footer">
-            <!-- <button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button> -->
-            <a href="https://github.com/ccrwy5/Top-Set" target="_target"><button type="button" class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/Image-Coming-Soon.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Coming soon</h5>
-            <p class="card-text">Under construction</p>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="btn btn-dark live-link-button"><i class="fas fa-external-link-alt"></i> Live Link</button>
-            <button type="button" class="btn btn-dark github-button"><i class="fab fa-github"></i> GitHub</button>          </div>
-        </div>
-      </div>
-
-      <!-- Skills Section -->
-      <div id="skills-section">
-        <h1 class="skills-header">Skills and Proficiencies</h1>
-        <div class="row" id="skills-section">
-        
-        <!-- Left Side-->
-        <div class="column">
-          <h3 class="development-title"><i class="fa fa-code fa-1x" aria-hidden="true"></i> Development</h3>
-
-          <div id="picture">
-            <img src="images/logos/html-logo-2.png" class="tech-icon">
-            <img src="images/logos/css-logo-2.png" class="tech-icon">
-            <img src="images/logos/javascript-logo.png" class="tech-icon">
-            <img src="images/logos/react-logo.webp" class="tech-icon">
-            <img src="images/logos/java-logo.png" class="tech-icon">
-            <img src="images/logos/swift-logo.png" class="tech-icon">
-            <img src="images/logos/c-sharp-logo.png" class="tech-icon">
-            <img src="images/logos/jquery-logo.png" class="tech-icon">
-            <img src="images/logos/bootstrap-logo.png" class="tech-icon">
-            <img src="images/logos/mysql-logo.svg" alt="Snow" class="tech-icon">
-            <img src="images/logos/mongo-logo.png" alt="Forest" class="tech-icon">
-            <img src="images/logos/firestore-logo.png" alt="Mountains" class="tech-icon">
-
-
-
-          </div>
-        </div>
-
-        <!-- Right Side-->
-        <div class="column">
-          <h3 class="tools-title"><i class="fa fa-cogs" aria-hidden="true"></i> Tools</h3>
-          <ul style="text-align: left; list-style: none;">
-            <li><i class="fa fa-check" aria-hidden="true"></i> Xcode</li>
-            <li><i class="fa fa-check" aria-hidden="true"></i> VS Code</li>
-            <li><i class="fa fa-check" aria-hidden="true"></i> Intellij</li>
-
-          </ul>
-
-          <h3 class="development-title"><i class="fa fa-users" aria-hidden="true"></i></i> Soft Skills</h3>
-          <ul style="text-align: left; list-style: none;">
-            <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Xcode</li>
-            <li><i class="fa fa-arrow-right" aria-hidden="true"></i> VS Code</li>
-            <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Intellij</li>
-
-          </ul>
-          </div>
-
-
-
-
-        </div>
+        <h3 class="soft-skills-title"><i class="fa fa-users" aria-hidden="true"></i></i> Soft Skills</h3>
+        <ul class="soft-skills-list">
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Communication</li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Teamwork / Collaboration</li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Public Speaking / Presenting</li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Leadership</li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Coachable</li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i> Driven Work Ethic</li>
+        </ul>
       </div>
     </div>
+  </div>
+
+  <!------------ About-Me Section ------------------->
+  <div class="row about-me-section">
+    <div class="col-4">
+      <h1 class="about-me-title">About me</h1>      
       
+    </div>
+    <div class="col-8">
+      <p class="biography">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel nibh in nibh mollis scelerisque vel a risus. Etiam ac ex ligula. Sed gravida et dolor nec semper. Nullam finibus, velit eget suscipit dictum, felis metus lacinia mi, ut semper purus risus id mi. Donec rhoncus, nisi vel dignissim ullamcorper, enim odio tristique mi, nec cursus lacus ligula vel dolor. Maecenas dapibus augue id sem iaculis, sit amet consequat diam imperdiet. Vestibulum elementum lectus dignissim, sollicitudin nisl eget, imperdiet nulla. Integer lobortis diam at pellentesque convallis. Suspendisse potenti. Nulla eu accumsan augue. Aenean vel orci maximus, pharetra libero sed, fringilla odio. Aliquam tempus risus mauris, a mattis libero fringilla quis.
 
-
-      </div>
-
+        Sed justo tortor, facilisis vel lectus eu, vehicula dignissim odio. Etiam pharetra consequat enim, sit amet rhoncus mauris. Suspendisse eu quam est. Cras mi ligula, auctor et tempor lacinia, hendrerit et nulla. Vestibulum enim ante, bibendum consequat hendrerit quis, vehicula at nisl. Nunc vestibulum, nunc sed ullamcorper euismod, urna risus facilisis felis, at suscipit dui lacus eu nulla. Sed efficitur odio at erat hendrerit auctor.
         
+        In vestibulum ante posuere consectetur hendrerit. Aliquam eu rhoncus felis, sed sodales magna. Aenean hendrerit nisl justo, a lacinia nisl suscipit et. Duis non elit non sapien feugiat imperdiet vitae ac elit. Aliquam vulputate diam eleifend, dictum nunc in, sagittis tellus. Aliquam accumsan eget velit vitae aliquet. Maecenas interdum leo vel velit faucibus, in euismod elit finibus. Vestibulum vehicula luctus felis.</p>
+    
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <!-- <span class="text-muted">Place sticky footer content here.</span> -->
+      <p class="footer-text">Footer</p>
+    </div>
+  </footer>
 
 
 
 
 
-
-      
+  </div>
 
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
