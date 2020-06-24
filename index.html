@@ -63,14 +63,14 @@
       <div class="collapse navbar-collapse col-10 offset-1" id="navbarsExampleDefault">
         <ul class="navbar-nav text-center">
           <li class="nav-item d-flex align-items-center">
-            <a class="nav-link"><i class="far fa-user-circle fa-fw mr-2"
-                style="margin: 0 auto; text-align: center;"></i> About</a>
-          </li>
-          <li class="nav-item d-flex align-items-center">
             <a class="nav-link" href="#portfolio"><i class="fas fa-laptop-code fa-fw mr-2"></i> My Work</a>
           </li>
           <li class="nav-item d-flex align-items-center">
-            <a class="nav-link"><i class="far fa-address-book fa-fw mr-2"></i> Contact</a>
+            <a href="#skills-section" class="nav-link"><i class="fa fa-bolt fa-fw mr-2"></i> Skills</a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <a  href="#about-me-section" class="nav-link" ><i class="far fa-user-circle fa-fw mr-2"
+                style="margin: 0 auto; text-align: center;"></i> About</a>
           </li>
         </ul>
       </div>
@@ -84,13 +84,14 @@
     <div class="row">
       <!-- <div class="col-sm-6 col-md-8"> -->
       <div class="col-sm-12">
+        <!-- <h4 class="intro-subtitle">Hello, my name is</h4> -->
         <h1 class="intro-title">Chris Rehagen</h1>
         <!-- <h3 class="intro-subtitle">Software Engineer</h2> -->
 
-        <h3 class="intro-subtitle">
+        <!-- <h3 class="intro-subtitle">
           <span class="txt-rotate" data-period="2000"
             data-rotate='[ "Software Engineer", "Web Developer", "Mobile Developer" ]'></span>
-        </h3>
+        </h3> -->
         <div class="intro-buttons">
           <!-- <button type="button" class="btn intro-portfolio-btn custom-green"><i class="fas fa-laptop-code"></i> Portfolio</button> -->
           <!-- <a href="resume.html"><button type="button" class="btn intro-resume-btn custom-green"><i class="fas fa-file-download"></i> Resume</button></a> -->
@@ -187,7 +188,7 @@
 
     <!------------------- NASA POTD ------------------->
     <div class="card">
-      <img src="images/project-images/POTD-screenshot.png" class="card-img-top" alt="...">
+      <img src="images/project-images/Mock-Ups/NASA-mockup.png" class="card-img-top mockup-img" alt="...">
       <div class="card-body">
         <h5 class="card-title">NASA Photo of the Day</h5>
         <p class="card-text">Image gallary application that displays NASA's "Photo of the Day" for a given day specified
@@ -234,6 +235,7 @@
   
   <div id="skills-section">
     <h1 class="skills-header">Skills and Proficiencies</h1>
+    <h3 class="skills-subtitle">A few of the technologies and other skills I've learned...</h3>
     <div class="row" id="skills-section">
 
       <!-- Left Side-->
@@ -284,17 +286,23 @@
   </div>
 
   <!------------ About-Me Section ------------------->
-  <div class="row about-me-section">
+  <div class="row about-me-section" id="about-me-section">
     <div class="col-4">
-      <h1 class="about-me-title">About me</h1>      
+      <h1 class="about-me-title">About me</h1>  
+      <h3 class="about-me-subtitle">
+          <span class="txt-rotate" data-period="2000"
+            data-rotate='[ "Software Engineer", "Web Developer", "Mobile Developer" ]'></span>
+        </h3>  
       
     </div>
     <div class="col-8">
-      <p class="biography">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel nibh in nibh mollis scelerisque vel a risus. Etiam ac ex ligula. Sed gravida et dolor nec semper. Nullam finibus, velit eget suscipit dictum, felis metus lacinia mi, ut semper purus risus id mi. Donec rhoncus, nisi vel dignissim ullamcorper, enim odio tristique mi, nec cursus lacus ligula vel dolor. Maecenas dapibus augue id sem iaculis, sit amet consequat diam imperdiet. Vestibulum elementum lectus dignissim, sollicitudin nisl eget, imperdiet nulla. Integer lobortis diam at pellentesque convallis. Suspendisse potenti. Nulla eu accumsan augue. Aenean vel orci maximus, pharetra libero sed, fringilla odio. Aliquam tempus risus mauris, a mattis libero fringilla quis.
-
-        Sed justo tortor, facilisis vel lectus eu, vehicula dignissim odio. Etiam pharetra consequat enim, sit amet rhoncus mauris. Suspendisse eu quam est. Cras mi ligula, auctor et tempor lacinia, hendrerit et nulla. Vestibulum enim ante, bibendum consequat hendrerit quis, vehicula at nisl. Nunc vestibulum, nunc sed ullamcorper euismod, urna risus facilisis felis, at suscipit dui lacus eu nulla. Sed efficitur odio at erat hendrerit auctor.
-        
-        In vestibulum ante posuere consectetur hendrerit. Aliquam eu rhoncus felis, sed sodales magna. Aenean hendrerit nisl justo, a lacinia nisl suscipit et. Duis non elit non sapien feugiat imperdiet vitae ac elit. Aliquam vulputate diam eleifend, dictum nunc in, sagittis tellus. Aliquam accumsan eget velit vitae aliquet. Maecenas interdum leo vel velit faucibus, in euismod elit finibus. Vestibulum vehicula luctus felis.</p>
+      <p class="biography">My name is Chris Rehagen and I am a software developer from the St. Louis, Missouri area. 
+        I discovered my passion for programming roughly 5 years ago and carried that with my during my university study 
+        and side ventures / projects. 
+        <br><br>
+        My main interest lies in front-end developement and creating meaningful, useful, and astecticly pleasing UIs 
+        to create the best experience for the user. Despite being more inclined towards front-end work, I also have 
+        experience in back-end technologies and development.
     
     </div>
   </div>
@@ -302,7 +310,7 @@
   <footer class="footer">
     <div class="container">
       <!-- <span class="text-muted">Place sticky footer content here.</span> -->
-      <p class="footer-text">Footer</p>
+      <p class="footer-text"></p>
     </div>
   </footer>
 
