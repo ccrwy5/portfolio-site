@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+        <title>Savor Street</title>
+        <link rel="icon" href="images/logo-white.png">
+
+
+
+        <!------------ Pure CSS------------>        
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+
+        <!------------ W3.CSS------------>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+        <!------------External CSS------------>
+        <link rel="stylesheet" href="restaurant.css">
+
+        <!------------External Fonts------------>
+        <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+
+
+
+    </head>
+
+    <body>
+
+
+        <!------------ Nav-Bar------------>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#menu">Menu</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+                <a class="mx-auto" href="#">
+                    <img src="images/logo-white-triangle.png" class="rounded-circle logo-image">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contactUs">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+        <!------------ Top Image/Header ------------>
+
+        <div class="splash-container" style="z-index: -1;">
+            <div class="splash">
+                <h1 class="splash-head">Savor Street</h1>
+                <p class="contactInfo">The city's finest and freshest cusine</p>
+            </div>
+        </div>
+
+
+
+        <!------------ Menu ------------>
+
+        <div class="content-wrapper w3-container w3-xxlarge" id="menu" style="padding-top: 50px">
+            <div class="w3-content content blueBg"> 
+
+                <h1 class="w3-center w3-jumbo cursive blueBg" style="margin-bottom:64px">The Menu</h1>
+
+
+                <!------------Handle Switching------------>
+                <div class="w3-row w3-center w3-border w3-border-white">
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Starters');" id="myLink">
+                        <div class="w3-col s4 tablink w3-padding-large w3-hover-red cursive">Starters</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');">
+                        <div class="w3-col s4 tablink w3-padding-large w3-hover-red cursive">Pizza</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Entres');">
+                        <div class="w3-col s4 tablink w3-padding-large w3-hover-red cursive">Entres</div>
+                    </a>
+                </div>
+
+                <!------------Menu Section 1------------>
+                <div id="Pizza" class="w3-container menu w3-padding-32 w3-white" style="font-size: 12px">
+
+                    <h1 class="menuItems"><b>Meat Lover's</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+                    <p class="w3-text-grey">Sausage, pepperoni, bacon and ham</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>The 4-Cheese Beast</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+                    <p class="w3-text-grey">Mozzarella, parmesan, pecorino, jarlsberg</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>Buffalo Chicken</b> <span class="w3-tag w3-red w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, signaure buffalo sauce</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>Pineapple'o'clock</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>Parma</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">$21.50</span></h1>
+                    <p class="w3-text-grey">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+                </div>
+
+
+                <!------------Menu Section 2------------>
+                <div id="Entres" class="w3-container menu w3-padding-32 w3-white" style="font-size: 12px">
+                    <h1 class="menuItems"><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+                    <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+                    <p class="w3-text-grey">Ravioli filled with your choice of beef or chhese</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
+                    <p class="w3-text-grey">Fresh tomato sauce, whole noodles</p>
+                    <hr>
+                    
+                    <h1 class="menuItems"><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
+                    <p class="w3-text-grey">Salmon, shrimp, lobster</p>
+                </div>
+
+
+                <!------------Menu Section 3------------>
+                <div id="Starters" class="w3-container menu w3-padding-32 w3-white" style="font-size: 12px">
+                    <h1 class="menuItems"><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+                    <p class="w3-text-grey">Ask your waiter</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>Mozzarella Sticks</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+                    <p class="w3-text-grey">Hand breaded, fresh mozzarella</p>
+                    <hr>
+
+                    <h1 class="menuItems"><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
+                    <p class="w3-text-grey">Grilled ciabatta, garlic butter</p>
+                  
+
+                    <hr>
+                    <h1 class="menuItems"><b>House Salad</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
+                    <p class="w3-text-grey">Local lettuce, hand-tossed with our house dressing</p>
+                </div>
+
+            </div>
+
+            <!------------ End Menu ------------>
+
+
+
+            <div><br></div>
+
+
+
+            <!------------ Contact/Bottom Section ------------>
+
+            <div class="content blueBg contact-section" id="aboutUs">
+                <h2 class=" is-center aboutTitle">About Us</h2>
+
+                <div class="pure-g">
+
+                    <!------------Hours------------>
+                    <div class="l-box-lrg pure-u-1 pure-u-md-2-5" style="padding-right: 0px; padding-left: 0px">
+                        <h4 class="contactHeaders">Hours</h4>
+                        <div class="w3-row contactInfo">
+                            <div class="w3-col s6" style="padding-right: 30px">
+                                <p>M / 10:00am - 10:00pm</p>
+                                <p>Tu / 10:00am - 10:00pm</p>
+                                <p>W / 10:00am - 10:00pm</p>
+                                <p>Th / 10:00am - 10:00pm</p>
+                            </div>
+                            <div class="w3-col s6">
+                                <p>F / 10:00am - 12:00am</p>
+                                <p>Sat / 12:00pm - 12:00am</p>
+                                <p>Sun / Closed</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!------------Contact Us------------>
+                    <div class="l-box-lrg pure-u-1 pure-u-md-3-5" id="contactUs">
+                        <h4 class="contactHeaders">Location</h4>
+
+
+                        <div id="map" class="center-div"></div>
+
+
+                        <h4 class="contactHeaders">Address</h4>
+                        <p class="contactInfo">
+                            1000 E Main Street<br>
+                            St. Capital, State 98765
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!------------ Footer ------------>
+            <!-- <div class="footer l-box is-center">
+                Main Steet Italian
+            </div> -->
+        </div>
+
+        <!------------External Script------------>
+        <script src="script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrwCaGLQDFHREnw-t5eVV-KyvW0JcsU7Q&callback=initMap" async defer></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
